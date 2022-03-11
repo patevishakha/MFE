@@ -24,7 +24,7 @@ import {Main,AppBar ,DrawerHeader} from './PersistantFileStyles';
 // import StepperApi from './StepperApi';
 // import Combine from './Report/Combine';
 
-//import ReportingApp from './MFEs/ReportingApp';
+import ReportingApp from './MFEs/ReportingApp';
 import WorkflowApp from './MFEs/WorkflowApp';
 
 const generateClassName = createGenerateClassName({
@@ -206,7 +206,7 @@ export default function Persistant() {
               <Route path="/" element={`Home Page`}/>
               <Route path="general" element={`General Tab`}/>
               <Route path="general/Workflows" element={<WorkflowApp/>}/>
-              {/* <Route path="general/Reports" element={<ReportingApp/>}/> */}
+              <Route path="general/Reports" element={<ReportingApp/>}/> 
               {/* <Route path="users//*" element={<Users getList={mylist}/>}/> */}
               <Route path="info" element={`This is Info Page`}/>
             </Routes>
