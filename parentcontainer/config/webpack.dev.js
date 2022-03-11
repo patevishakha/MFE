@@ -36,7 +36,7 @@ const devConfig = {
     new ModuleFederationPlugin({
       name: 'parentcontainer',
       remotes: {
-        // reporting: 'reporting@http://localhost:3001/remoteEntry.js',
+        reporting: 'reporting@http://localhost:3001/remoteEntry.js',
         workflow: 'workflow@http://localhost:3002/remoteEntry.js'
       },
       shared: packageJson.dependencies,
