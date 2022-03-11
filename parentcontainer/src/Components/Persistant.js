@@ -27,10 +27,10 @@ import {Main,AppBar ,DrawerHeader} from './PersistantFileStyles';
 import ReportingApp from './MFEs/ReportingApp';
 import WorkflowApp from './MFEs/WorkflowApp';
 
-const generateClassName = createGenerateClassName({
-  productionPrefix: 'report',
-  seed : 're',
-});
+// const generateClassName = createGenerateClassName({
+//   productionPrefix: 'report',
+//   seed : 're',
+// });
 
 const drawerWidth = 240;
 
